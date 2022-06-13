@@ -1,0 +1,194 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.top{
+  background-image: url('jackso.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+  color: #FDDFFF;
+}
+
+
+.btnContact{
+  margin: 8px 9px;
+  float: right;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: #FDDFFF;
+  transition: 1s ease-in;
+  transition-property: transform
+  font-weight: bold;
+  background-color:  #FF486F;
+}
+
+.btnContact:hover{
+  transform: rotateY(180deg);
+  background-color: transparent;
+}
+
+.top h1 {
+  padding-top: 130px;
+  padding-bottom:10px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.mid{
+  padding-top: 30px;
+  height: 80vh;
+  width: 100%;
+  background-color: #FFF9F7;
+  text-align: center;
+}
+
+.mid h1{
+  padding-bottom: 25px;
+  color: #FF486F;
+  position: relative;
+  animation-name: head;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+
+}
+
+
+@keyframes head {
+  0%{
+    top:-150px;
+
+  }
+  100%{
+    top:0;
+  }
+
+}
+
+
+.mid p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 1.3em;
+  position: relative;
+  animation-name: para;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes para {
+  0%{
+    left:-1000px;
+
+  }
+  100%{
+      left:0;
+  }
+}
+
+
+
+.mid1{
+  opacity: 0;
+  animation-name: codepic;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes codepic {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+
+}
+
+.codepic{
+  padding: 20px 0 0 20px;
+  height: 300px;
+  width: 300px;
+}
+
+
+.mid2{
+  height: 80vh;
+  width: 100%;
+  background-color: #FFF9F7;
+}
+
+.mid2 h1{
+  text-align: center;
+  padding-top: 30px;
+  color: #FF486F;
+  font-size: 3em;
+
+
+}
+
+.cards{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  height: 200px;
+	width: 300px;
+	padding: 20px 35px;
+	background:  #E1CFFF;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+  transition: 1s ease-in
+
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+
+.footer{
+  height: 20vh;
+  width: 100%;
+  background-color: #C7BBFD;
+  margin-top: 51px;
+  padding-top: 40px;
+}
+
+.platform{
+  text-align: center;
+
+}
+.platform a{
+  font-size: 20px;
+  color: #FF486F;
+  padding-left: 20px;
+}
+
+.platform a:hover{
+  background-color: inherit;
+}
+
+
+.footer p{
+  text-align: center;
+  color: #FF486F;
+}
